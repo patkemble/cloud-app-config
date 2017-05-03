@@ -1,2 +1,6 @@
 zuul:
   ignored-services: config-service
+  routes:
+      test:
+        path: /redirect/**
+        url: http://google.com
